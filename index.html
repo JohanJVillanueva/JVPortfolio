@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,9 +9,10 @@
     <link rel="icon" href="./PUPLogo.ico" type="image/x-icon">
     <script type = "text/javascript" src="function.js"></script>  
   </head>
+
+
   <body onload="document.getElementById('lyrics').stop();">
        <div class="bg-image"></div>
-       
         <div class="bg-text">
            <img src="PUPLogo.png" height="200">
           <h1>The Polytechnic University of the Philippines Hymn</h2>
@@ -70,48 +72,14 @@
 
           <img id="pauseB" src="pause-button.png" width="70" height="70" alt="Stop button" onClick="document.getElementById('lyrics').stop(); pauseAudio(); enableBtn() " />
           
-
-
           <button style="border:none; background-color: transparent;" id="playB" onclick="window.location.reload()">
             <img id="playB" src="stop-button.png" width="70" height="70" alt="Start button"/>
-            </button>
+          </button>
 
           <audio id="pupsong">
             <source src="puphymn.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
           </audio>
         </div>
-
-
-        <script>
-            var playSong = document.getElementById("pupsong"); 
-
-            var aud = document.getElementById("pupsong");
-            aud.onended = function() 
-            {
-            alert("The song has ended");
-            window.location.reload()
-            };
-            
-            function playAudio() { 
-                playSong.play(); 
-            } 
-            
-            function pauseAudio() { 
-                playSong.pause(); 
-            } 
-
-            function disableBtn() {
-            document.getElementById("playB").disabled = true;
-            }
-
-            function enableBtn() {
-            document.getElementById("playB").disabled = false;
-            }
-
-
-
-        </script>
-
   </body>
 </html>
