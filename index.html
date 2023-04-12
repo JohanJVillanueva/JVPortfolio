@@ -16,56 +16,56 @@
         <div class="bg-text">
            <img src="PUPLogo.png" height="200">
 
-          <h1>The Polytechnic University of the Philippines Hymn</h2>
+          <h2>The Polytechnic University of the Philippines Hymn</h2>
           
+          <br>
           <marquee 
             behavior="scroll" 
             direction="up" 
             scrollamount="1" 
-            height="100" 
+            height="105" 
             loop="" 
-            truespeed=60
+            scrolldelay="60"
             id="lyrics" >
                 <center>
                     <h1>
-                        Lyrics:
-                        <br> 
-                        <br> 
-                        <br> 
-                        Sintang Paaralan <br> 
-                        Tanglaw ka ng bayan  <br>
-                        Pandayan ng isip ng kabataan <br>
-                        Kami ay dumating <br>
-                        nang salat sa yaman <br>
-                        Hanap na dunong <br>
-                        ay iyong alay <br>
-                        Ang layunin <br>
-                        mong makatao <br>
-                        Dinarangal ang <br>
-                        Pilipino <br>
-                        Ang iyong aral, <br>
-                        diwa, adhikang taglay <br>
-                        PUP, aming gabay <br>
-                        Paaralang dakila <br>
                         <br>
-                        PUP, pinagpala <br> 
+                        <br>[Lyrics Start]
                         <br>
-                        Gagamitin ang <br>
-                         karunungan <br>
-                        Mula sa iyo, <br>
-                        para sa bayan <br>
-                        Ang iyong aral, <br>
-                        diwa, adhikang taglay <br>
-                        PUP, aming gabay <br>
-                        Paaralang dakila <br>
                         <br>
-                        PUP, pinagpala <br>    
-                        <br> 
-                        <br> 
-                        <br>   
-                    </p>
+                        
+                        Sintang Paaralan <br>
+                        Tanglaw ka ng bayan <br><br>
+                        Pandayan ng isip ng kabataan <br><br>
+                        Kami ay dumating nang salat sa yaman <br><br>
+                        Hanap na dunong ay <br> iyong alay <br><br>
+                        Ang layunin mong <br> makatao <br><br>
+                        Dinarangal ang Pilipino <br> <br>
+                        Ang iyong aral, diwa, <br> adhikang taglay <br><br>
+                        PUP, aming gabay<br><br>
+                        Paaralang dakila <br><br>
+                        PUP, pinagpala<br><br>
+                        <br>
+                        Gagamitin ang karunungan<br><br>
+                        Mula sa iyo, <br> para sa bayan<br><br>
+                        Ang iyong aral, diwa, <br>adhikang taglay<br><br>
+                        PUP, aming gabay<br>
+                        Paaralang dakila<br><br><br>
+                        PUP, pinagpala<br><br>
+                        <br>
+                        <br>
+                        <br> <br>
+                        [Lyrics End]
+  
+                    </h1>
                 </center>
           </marquee>
+
+          
+          <br>
+          <br>
+          <br>
+          
 
           <button style="border:none; background-color: transparent;" id="playB" onclick="disableBtn();document.getElementById('lyrics').start(); playAudio();">
             <img id="playB" src="play.png" width="70" height="70" alt="Start button"/>
@@ -76,6 +76,7 @@
           <button style="border:none; background-color: transparent;" id="playB" onclick="window.location.reload()">
             <img id="playB" src="stop-button.png" width="70" height="70" alt="Start button"/>
           </button>
+
 
           <audio id="pupsong">
             <source src="puphymn.mp3" type="audio/mpeg">
