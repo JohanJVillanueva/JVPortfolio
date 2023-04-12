@@ -1,4 +1,3 @@
-
 var playSong = document.getElementById("pupsong"); 
 
 var aud = document.getElementById("pupsong");
@@ -23,5 +22,4 @@ document.getElementById("playB").disabled = true;
 function enableBtn() {
 document.getElementById("playB").disabled = false;
 }
-
 

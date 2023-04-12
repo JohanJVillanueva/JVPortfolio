@@ -80,6 +80,36 @@
             <source src="puphymn.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
           </audio>
+          <p> Submitted by: Johan Villanueva <br> BSCOE 2-5 CET 4 (Mobile Devt)</p>
         </div>
+        <script>
+            var playSong = document.getElementById("pupsong"); 
+
+            var aud = document.getElementById("pupsong");
+            aud.onended = function() 
+            {
+            alert("The song has ended");
+            window.location.reload()
+            };
+
+            function playAudio() { 
+                playSong.play(); 
+            } 
+
+            function pauseAudio() { 
+                playSong.pause(); 
+            } 
+
+            function disableBtn() {
+            document.getElementById("playB").disabled = true;
+            }
+
+            function enableBtn() {
+            document.getElementById("playB").disabled = false;
+            }
+
+
+
+        </script>
   </body>
 </html>
