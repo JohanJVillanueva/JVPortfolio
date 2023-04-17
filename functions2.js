@@ -4,7 +4,7 @@ aud.ontimeupdate = function() {myFunction()};
 
 function myFunction() {
   if (aud.currentTime < 11 ) {
-      prevlyric = " ";
+      prevlyric = " - ";
       showlyric = "[Lyrics Start]";
       nextlyric = "Sintang Paaralan";
   }
