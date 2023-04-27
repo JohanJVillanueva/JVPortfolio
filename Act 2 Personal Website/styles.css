@@ -175,6 +175,18 @@ h5{
     background-color: rgb(239, 239, 239);
 }
 
+.video-container{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(239, 239, 239);
+    background-color: rgb(239, 239, 239);
+}
+
+
 
 @media only screen and (max-width: 1200px) {
     /* For mobile phones: */
@@ -189,4 +201,21 @@ h5{
       width: 95%;
     }
     
+  }
+
+  .column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
