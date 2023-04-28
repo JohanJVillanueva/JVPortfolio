@@ -148,15 +148,19 @@ h5{
 }
 
 #footer {
-    padding: 10px;
+    padding: 5px;
     position:fixed;
-    height: 20px;
+    height: 44px;
     background-color: rgb(0, 22, 103);
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
     color: white;
+}
+
+#feature{
+  border-radius: 20px;
 }
 
 .homeimg{
